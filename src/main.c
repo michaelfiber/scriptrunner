@@ -28,6 +28,8 @@ int main(int argc, char *argv[])
 
 	InitWindow(320, 200, argv[1]);
 
+	GuiSetStyle(DEFAULT, TEXT_SIZE, GetFontDefault().baseSize * 2);
+
 	int buttonHeight = (height - (gutter * (buttonCount + 1))) / buttonCount;
 
 	for (int i = 0; i < buttonCount; i++)
