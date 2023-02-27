@@ -3,8 +3,8 @@
 #define RAYGUI_IMPLEMENTATION
 #include "raygui.h"
 
-int width = 320;
-int height = 200;
+int width = 480;
+int height = 320;
 int gutter = 10;
 int buttonCount = 0;
 
@@ -26,9 +26,9 @@ int main(int argc, char *argv[])
 		buttonCount++;
 	}
 
-	InitWindow(320, 200, argv[1]);
+	InitWindow(width, height, argv[1]);
 
-	GuiSetStyle(DEFAULT, TEXT_SIZE, GetFontDefault().baseSize * 2);
+	GuiSetStyle(DEFAULT, TEXT_SIZE, GetFontDefault().baseSize * 3);
 
 	int buttonHeight = (height - (gutter * (buttonCount + 1))) / buttonCount;
 
