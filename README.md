@@ -11,3 +11,5 @@ scriptrunner "Window Title" "First Button Text" "./first-button-script-to-run.sh
  
  ## How it looks
  It creates a button for each Button Text + Script combo provided, stacking them horizontally.  It's set currently to simply be 320x200 because that's the size I need it to be for my application.
+
+![screenshot](files/screenshot.png)
