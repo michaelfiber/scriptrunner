@@ -5,4 +5,4 @@ set -o pipefail
 
 ###
 
-gcc main.c -o scriptrunner -lraylib -lm
+gcc main.c -o scriptrunner -lraylib -lm -ldl -lpthread
